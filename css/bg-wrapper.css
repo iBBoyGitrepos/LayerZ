@@ -1,0 +1,145 @@
+/* approach by pictures */
+.noise {
+  width: 2653px;
+  height: 9600px;
+  left: -254px;
+}
+
+/* .noise .texture {
+  height: 1600px;
+} */
+
+.pink-ellipse-Group {
+  top: -558px;
+  right: -800px;
+  width: 1754px;
+  height: 2012px;
+}
+
+.disk {
+  width: 1562px;
+  height: 584px;
+  top: 1066px;
+  left: -456px;
+}
+
+/* approach by elements */
+/* 
+.noise {
+    width: 2653px;
+    height: 9600px;
+    left: -254px;
+}
+
+.pink-ellipse-Group {
+    top: -558px;
+    right: -800px;
+    width: 1754px;
+    height: 2012px;
+}
+
+.ellipse29 {
+  width: 1301px;
+  height: 2012px;
+  position: absolute;
+  top: -558px;
+  left: 1443px;
+  background-image: linear-gradient(135deg, #4F1C41 0%, #B5218B 100%);
+  filter: blur(94px);
+  border-radius: 50%;
+}
+
+.ellipse28 {
+  width: 1199px;
+  height: 1494px;
+  position: absolute;
+  top: -299px;
+  left: 1272px;
+  background-image: linear-gradient(
+    135deg,
+    #0D0300 0%,
+    #340C00 20%,
+    #E7134F 35%,
+    #EA24B3 50%,
+    #FFCD84 65%,
+    #FFCD84 72%
+  );
+  box-shadow: inset 0px 4px 64px #FFF0D9;
+  border-radius: 50%;
+}
+
+.ellipse30 {
+  width: 1391.11px;
+  height: 1726.2px;
+  position: absolute;
+  top: -282.72px;
+  left: 990px;
+  opacity: 0.1;
+  transform: rotate(6.94deg);
+  background-image: linear-gradient(
+    135deg,
+    #0D0300 0%,
+    #340C00 20.5%,
+    #E7134F 50%,
+    #EA24B3 81%,
+    #FFCD84 95.37%,
+    #FFCD84 100%
+  );
+  box-shadow: inset 0px 4px 64px #FFF0D9;
+  filter: blur(400px);
+  border-radius: 50%;
+}
+
+.ellipse35 {
+  width: 1561.91px;
+  height: 540.95px;
+  position: absolute;
+  top: 1066.53px;
+  left: -456px;
+  background-image: linear-gradient(
+    135deg,
+    #0D0300 0%,
+    #340C00 20.5%,
+    #E7134F 50%,
+    #EA24B3 81%,
+    #FFCD84 95.37%,
+    #FFCD84 100%
+  );
+  box-shadow: inset -0.9px -2.71px 1.81px #FFFFFF;
+  border-radius: 50%;
+}
+
+.ellipse34 {
+  width: 1562.12px;
+  height: 540.95px;
+  position: absolute;
+  top: 1110.48px;
+  left: -456px;
+  background-image:
+    linear-gradient(
+      135deg,
+      #0D0300 0%,
+      #340C00 12.5%,
+      #541400 24.96%,
+      #831F00 41.88%,
+      #AB2706 52.94%,
+      #C82D0B 61.95%,
+      #E5320F 69.08%,
+      #E74F13 76.8%,
+      #E97318 84.92%,
+      #EA9924 90.49%,
+      #FFCD84 95.37%,
+      #FFCD84 100%
+    ),
+    linear-gradient(
+      135deg,
+      #0D0300 0%,
+      #340C00 20.5%,
+      #E7134F 50%,
+      #FFF511 81%,
+      #FFCD84 95.37%,
+      #FFCD84 100%
+    );
+  box-shadow: inset 0px 3.62px 180.8px #FFF0D9;
+  border-radius: 50%;
+} */
