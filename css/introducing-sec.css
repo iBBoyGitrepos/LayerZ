@@ -1,0 +1,89 @@
+.introducing-sec {
+    padding: 138px 12px;
+    margin-top: 50px;
+}
+
+.introducing-sec h1 {
+    font-weight: 700;
+    font-size: 72px;
+    letter-spacing: -0.5%;
+    vertical-align: middle;
+}
+
+.introducing-sec h1 span {
+    color: #FFF749;
+}
+
+.introducing-sec p {
+    color: #FAC3E0;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -1%;
+    vertical-align: middle;
+}
+
+.card-wrap {
+    backdrop-filter: blur(32px);
+    -webkit-backdrop-filter: blur(32px);
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.introducing-sec .intro-card {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    color: #fff;
+}
+
+.introducing-sec .intro-card h3 {
+    color: #FDE2AE;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -1%;
+    margin: 0 0 16px 0;
+}
+
+.introducing-sec .intro-card p {
+    color: #F8F9FA;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -1%;
+    margin: 0;
+}
+
+.introducing-sec .intro-card .icon {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.introducing-sec .intro-card .icon img {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media (max-width: 991px) {
+    .introducing-sec h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 771px) {
+    .introducing-sec h1 {
+        font-size: 30px;
+    }
+
+    .winners-feed h3 {
+        margin-left: 0;
+    }
+
+    .introducing-sec p {
+        font-size: 18px;
+    }
+}

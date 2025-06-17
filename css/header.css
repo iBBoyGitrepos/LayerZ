@@ -1,32 +1,23 @@
 header {
-    height: 951px;
-    padding-top: 234px;
+    padding: 150px 12px 128px;
 }
 
-/* .header-content {
-    display: flex;
-    width: 76.39%;
-    height: 613px;
-    justify-content: space-between;
-} */
-
-/* .left {
-    
-} */
+/* .hero-sec {} */
+/* .left {} */
 
 header h1 {
     font-weight: 700;
     font-size: 100px;
-    line-height: 105px;
+    /* line-height: 105px; */
     letter-spacing: -1px;
     vertical-align: middle;
     text-transform: uppercase;
 }
 
 .Token {
-    width: 93.51px;
-    height: 93.51px;
-    top: 5px;
+    width: 93px;
+    z-index: 4;
+    top: 15px;
     left: 316px;
     border-radius: 50%;
 }
@@ -38,6 +29,9 @@ header h1 {
 }
 
 .box .text {
+    display: inline-block;
+    height: 40px;
+    overflow: hidden;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
@@ -48,8 +42,7 @@ header h1 {
 }
 
 .upper-text {
-    width: 512.7px;
-    height: 96px;
+    max-width: 512.7px;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -80,9 +73,14 @@ header h1 {
 .Main-button {
     width: 350px;
     height: 60px;
-    opacity: 0.56;
+    border: none;
+    opacity: 0.6;
     background: radial-gradient(99.96% 256.03% at 2.21% 111.78%, #E7134F 0%, #EA24B3 51.5%, #FFCD84 88.62%, #FFCD84 100%);
     border-radius: 8px;
+}
+
+.Main-button:hover {
+    box-shadow: 4px 4px 24px 0px #DE32AB80;
 }
 
 .Main-button .text {
@@ -100,6 +98,7 @@ header h1 {
     border-width: 1px;
     background: #000426;
     border: 1px solid #2C2B44;
+    cursor: pointer;
     box-shadow: 0px 2px 24px 0px #E749B799;
 }
 
@@ -113,7 +112,7 @@ header h1 {
 }
 
 .Jackpot-box-wrapper {
-    width: 530px;
+    max-width: 530px;
     height: 613px;
     padding: 2px;
     border-radius: 16px;
@@ -211,4 +210,71 @@ header h1 {
     text-align: right;
     vertical-align: middle;
     margin-bottom: 16px;
+}
+
+@media (max-width: 1200px) {
+    header h1 {
+        font-size: 70px;
+    }
+
+    .Token {
+        width: 70px;
+        top: 8px;
+        left: 219px;
+    }
+
+    .box .text {
+        font-size: 14px;
+    }
+
+    .Jackpot-box {
+        padding: 10px;
+    }
+
+    .Jackpot-box h3 {
+        font-size: 40px;
+    }
+
+    .Jackpot-box h6 {
+        font-size: 18px;
+    }
+
+    .Jackpot-box h5 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .box .text {
+        font-size: 16px;
+    }
+
+    .left {
+        width: 350px;
+    }
+}
+
+@media (max-width: 771px) {
+    .left {
+        width: 100%;
+    }
+
+    .Jackpot-box {
+        padding: 30px;
+    }
+
+    .Main-button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    header h1 {
+        font-size: 50px;
+    }
+    .Token {
+        width: 50px;
+        top: 4px;
+        left: 154px;
+    }
 }

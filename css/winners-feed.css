@@ -1,0 +1,75 @@
+.winners-feed {
+    position: absolute;
+    top: 900px;
+    z-index: 999;
+    height: 56px;
+    background: #00000099;
+    backdrop-filter: blur(6px);
+}
+
+.winners-feed.sticky {
+    position: fixed;
+    top: 90px;
+}
+
+.winners-feed-inner {
+    height: 29px;
+    overflow-x: auto;
+    white-space: nowrap;
+    cursor: default;
+    outline: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+
+.winners-feed-inner::-webkit-scrollbar {
+    display: none;
+}
+
+.winners-feed-inner:active {
+    cursor: grabbing;
+}
+
+.winners-feed h3,
+.winners-feed h4 {
+    display: inline-block;
+    color: #FDE2AE;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 0 0 0 30px;
+    letter-spacing: -0.01em;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.winners-feed h3 {
+    color: #BB6799;
+}
+
+.winners-feed-inner span {
+    padding: 3px 10px;
+    border-radius: 12px;
+    background: linear-gradient(90deg, rgba(79, 152, 90, 0.3) 0%, rgba(94, 235, 167, 0.3) 100%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.01em;
+    color: #9EE7AA;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.winners-feed-inner img {
+    vertical-align: middle;
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+}
+
+@media (max-width: 771px) {
+    .winners-feed {
+        top: 1550px;
+    }
+}

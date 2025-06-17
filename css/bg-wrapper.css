@@ -16,11 +16,51 @@
   height: 2012px;
 }
 
+.pink-shadow {
+    top: 900px;
+    margin-left: 15%;
+}
+
 .disk {
   width: 1562px;
   height: 584px;
-  top: 1066px;
+  top: 1000px;
   left: -456px;
+}
+
+@media (max-width: 1400px) {
+  .disk {
+    left: -650px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .disk {
+    left: -800px;
+  }
+
+  .pink-ellipse-Group {
+    right: -1000px;
+  }
+}
+
+@media (max-width: 771px) {
+  .disk {
+    top: 1600px;
+    left: -1000px;
+  }
+}
+
+@media (max-width: 600px) {
+  .disk {
+    left: -1200px;
+  }
+} 
+
+@media (max-width: 370px) {
+  .disk {
+    left: -1300px;
+  }
 }
 
 /* approach by elements */
