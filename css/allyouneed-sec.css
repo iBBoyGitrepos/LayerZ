@@ -1,0 +1,137 @@
+.allyouneed-sec div.container {
+    background-image: url('../assets/allyouneed-sec-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 604px;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.ellipse31 {
+    width: 504px;
+    height: 504px;
+    top: -199px;
+    left: -149px;
+}
+
+.disks-2 {
+    width: 1280px;
+    height: 407px;
+    top: 273px;
+    left: 771px;
+}
+
+.noise-texture {
+    width: 2653px;
+    height: 1600px;
+    top: -329px;
+    left: -15px;
+}
+
+.allyouneed-sec h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -0.5%;
+    vertical-align: middle;
+}
+
+.allyouneed-sec h1 span {
+    color: #FFCE2B;
+}
+
+.benefit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.tile-svg {
+    width: 100%;
+    height: auto;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.tile-rect {
+    fill: url(#bgGradient);
+    stroke: url(#borderGradient);
+    stroke-width: 1;
+}
+
+.tile-text {
+    fill: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.benefit .tile:hover {
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(255, 206, 43, 0.3);
+}
+
+@media (max-width: 991.98px) {
+    .allyouneed-sec .container {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        height: auto;
+        padding: 3rem 1rem;
+    }
+
+    .allyouneed-sec h1 {
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    .benefit {
+        justify-content: center;
+    }
+
+    .disks-2 {
+        top: 400px;
+        left: 200px;
+    }
+}
+
+/* 2x2 grid behavior */
+@media (min-width: 772px) {
+    .benefit {
+        flex-direction: row;
+        max-width: 600px;
+    }
+
+    .benefit .tile {
+        flex: 0 0 calc(50% - 0.5rem);
+    }
+}
+
+/* Vertical stacking under 771px */
+@media (max-width: 771px) {
+    .benefit {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .benefit .tile {
+        flex: 0 0 auto;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .ellipse31 {
+        width: 404px;
+        height: 404px;
+    }
+
+    .disks-2 {
+        top: 700px;
+        left: 150px;
+    }
+}
