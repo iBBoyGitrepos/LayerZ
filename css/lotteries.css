@@ -1,0 +1,71 @@
+/* .lotteries-sec {} */
+
+.ellipse-bg {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    width: 565px;
+    text-align: center;
+    height: auto;
+    pointer-events: none;
+}
+
+.introducing-sec .intro-card {
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.introducing-sec .intro-card:hover {
+    box-shadow: 4px 4px 24px 0px #DE32AB80;
+}
+
+.lotteries-sec .intro-card h3 {
+    color: #FFFFFF;
+}
+
+.lotteries-sec .intro-card p {
+    color: #FAC3E0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    padding: 0;
+}
+
+.lotteries-sec .intro-card .icon {
+    display: flex;
+    justify-content: start;
+}
+
+.lotteries-sec .intro-card .icon img {
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+}
+
+.card-wrap:hover {
+    box-shadow: 4px 4px 24px 0 #DE32AB80;
+}
+
+@media (max-width: 771px) {
+    .ellipse-bg img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 771px) {
+    .ellipse-bg img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 450px) {
+    .ellipse-bg img {
+        width: 300px;
+    }
+}

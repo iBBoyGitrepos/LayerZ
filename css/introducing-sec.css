@@ -10,7 +10,7 @@
 }
 
 .introducing-sec h1 span {
-    color: #FFF749;
+    color: #FFCE2B;
 }
 
 .introducing-sec p {
@@ -42,7 +42,7 @@
     font-weight: 700;
     font-size: 32px;
     line-height: 40px;
-    letter-spacing: -1%;
+    letter-spacing: -0.01em;
     margin: 0 0 16px 0;
 }
 
