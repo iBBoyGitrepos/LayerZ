@@ -1,0 +1,69 @@
+.mission-sec {
+  padding: 64px 10px;
+}
+
+.disks-img {
+  top: 100px;
+  left: -841px;
+  width: 1416px;
+  height: 700px;
+}
+
+.mission-heading {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.mission-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+  color: #ddd;
+}
+
+.tile-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-svg:hover {
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  transform: translateY(-5px);
+  box-shadow: 0 0px 20px rgba(255, 206, 43, 0.3);
+}
+
+.mission .tile-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 1300px) {
+  .disks-img {
+    left: -1000px;
+  }
+  .mission-heading {
+      font-size: 40px;
+  }
+}
+
+@media (max-width: 771px) {
+  .disks-img {
+    left: -1200px;
+  }
+  .mission-heading {
+      font-size: 30px;
+  }
+  .mission-text {
+    font-size: 18px;
+  }
+}

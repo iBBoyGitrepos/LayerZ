@@ -6,7 +6,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
-    width: 565px;
+    width: 100%;
     text-align: center;
     height: auto;
     pointer-events: none;
@@ -61,6 +61,10 @@
 @media (max-width: 771px) {
     .ellipse-bg img {
         width: 400px;
+    }
+
+    .lotteries-sec .intro-card p {
+        font-size: 18px;
     }
 }
 

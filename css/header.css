@@ -266,6 +266,10 @@ header h1 {
     .Main-button {
         width: 100%;
     }
+
+    .Main-button .text {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 400px) {

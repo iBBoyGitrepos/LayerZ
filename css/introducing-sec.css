@@ -69,7 +69,11 @@
 
 @media (max-width: 991px) {
     .introducing-sec h1 {
-        font-size: 50px;
+        font-size: 40px;
+    }
+
+    .introducing-sec .intro-card h3 {
+        font-size: 20px;
     }
 }
 
@@ -78,11 +82,15 @@
         font-size: 30px;
     }
 
+    .introducing-sec p {
+        font-size: 18px;
+    }
+
     .winners-feed h3 {
         margin-left: 0;
     }
 
-    .introducing-sec p {
+    .introducing-sec .intro-card p { 
         font-size: 18px;
     }
 }

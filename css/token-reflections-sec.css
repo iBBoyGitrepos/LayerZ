@@ -1,0 +1,48 @@
+.token-reflections-sec {
+    padding: 80px 12px;
+}
+
+.token-reflections-sec div.container {
+    background-image: url('../assets/token-reflections-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 604px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.token-reflections-sec h1 {
+    font-weight: 700;
+    font-size: 56px;
+    /* line-height: 62px; */
+    letter-spacing: -0.5%;
+    vertical-align: middle;
+}
+
+.token-reflections-sec h1 span {
+    color: #FFCE2B;
+}
+
+.token-reflections-sec p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: #ddd;
+}
+
+@media (max-width: 991px) {
+    .token-reflections-sec h1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 771px) {
+    .token-reflections-sec h1 {
+        font-size: 30px;
+    }
+    .token-reflections-sec p {
+        font-size: 18px;
+    }
+}
