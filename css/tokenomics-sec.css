@@ -1,0 +1,160 @@
+.tokenomics-sec {
+    padding: 80px 12px;
+}
+
+.tokenomics-sec h1 {
+    color: #FFCE2B;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: -0.5%;
+    vertical-align: middle;
+}
+
+.tokenomics-sec p {
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    color: #FAC3E0;
+}
+
+.tokenomics-sec h5 {
+    color: #FDE2AE;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+
+.tokenomics-sec h6 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    margin: 0;
+    top: 20px;
+    left: 35px;
+}
+
+.pie-chart {
+    background-image: url('../assets/Pie chart.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 543px;
+    width: 100%;
+}
+
+.pie-chart h2 {
+    font-weight: 700;
+    font-size: 60.21px;
+    letter-spacing: -0.5px;
+    vertical-align: bottom;
+    text-transform: uppercase;
+}
+
+.pie-chart p {
+    color: #F8F9FA;
+    font-weight: 500;
+    font-size: 22.08px;
+    line-height: 36.13px;
+    letter-spacing: -0.22px;
+}
+
+.line {
+    height: 174px;
+    width: 1px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.line3 {
+    width: 558.6px;
+    height: 1px;
+    background-color: #FFFFFF;
+}
+
+.point-shadow {
+    width: 32.3px;
+    height: 32.1px;
+    border-radius: 50px;
+    background-color: #FFFFFF1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point {
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+@media (max-width: 1400px) {
+    .tokenomics-sec h6 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .tokenomics-sec h1,
+    .pie-chart h2 {
+        font-size: 40px;
+    }
+
+    .pie-chart p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .pie-chart {
+        height: 400px;
+    }
+
+    .line {
+        height: 140px;
+    }
+}
+
+@media (max-width: 771px) {
+
+    .tokenomics-sec h1,
+    .pie-chart h2 {
+        font-size: 30px;
+    }
+
+    .tokenomics-sec p {
+        font-size: 18px;
+    }
+
+    .pie-chart p {
+        font-size: 16px;
+    }
+
+    .tokenomics-sec h6 {
+        font-size: 20px;
+    }
+
+    .pie-chart {
+        height: 300px;
+    }
+
+    .line {
+        height: 90px;
+    }
+
+    .line4 {
+        height: 110px;
+    }
+
+    .point-shadow {
+        width: 22px;
+        height: 22px;
+    }
+
+    .point {
+        width: 12px;
+        height: 12px;
+    }
+}

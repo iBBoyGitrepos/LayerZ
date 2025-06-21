@@ -26,6 +26,10 @@
   color: #ddd;
 }
 
+.mission-text span {
+  color: #FAC3E0;
+}
+
 .tile-btn {
   background: none;
   border: none;
