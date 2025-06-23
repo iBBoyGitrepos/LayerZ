@@ -1,0 +1,291 @@
+.roadmap-sec {
+    padding: 80px 12px 136px;
+    overflow: hidden;
+    height: 1600px;
+}
+
+.ellipse2 {
+    width: 1045px;
+    height: 1045px;
+    top: -30px;
+    left: -458px;
+}
+
+.ellipse3 {
+    top: 250px;
+    right: -500px;
+}
+
+.token3 {
+    width: 194px;
+    top: 300px;
+    left: 200px;
+}
+
+.token4 {
+    width: 122px;
+    top: 1000px;
+    right: 200px;
+}
+
+.roadmap-sec h1 {
+    color: #FFCE2B;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -0.01em;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.roadmap-svg {
+    display: none;
+}
+
+.road {
+    height: 846px;
+    width: 7px;
+    background: linear-gradient(294.72deg, #FF4581 9.05%, #4388DD 79.28%);
+    /* opacity: 0.5; */
+    border-radius: 4px;
+    overflow: visible;
+}
+
+.roadmap-sec h3 {
+    color: #FDE2AE;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 37.5px;
+    letter-spacing: 0em;
+}
+
+.roadmap-sec ul {
+    width: auto;
+    white-space: nowrap;
+    margin-top: -10px;
+}
+
+.roadmap-sec ul li {
+    color: #FAC3E0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    list-style: none;
+}
+
+.list {
+    height: 30px;
+    width: auto;
+}
+
+.proof {
+    width: auto;
+    transform: translate(-44.5%, -20px);
+}
+
+.improved {
+    width: auto;
+    transform: translate(-44.5%, 100px);
+}
+
+.advanced {
+    width: auto;
+    transform: translate(-49.5%, 220px);
+}
+
+.private {
+    width: auto;
+    transform: translate(-92%, 340px);
+}
+
+.charity {
+    width: auto;
+    transform: translate(-12%, 460px);
+}
+
+.ios {
+    width: auto;
+    transform: translate(-49.5%, 820px);
+}
+
+.label {
+    width: 128px;
+    height: 1px;
+    background-color: #FF4581;
+}
+
+.private .label {
+    width: 339px;
+}
+
+.private ul {
+    margin-left: -80px;
+}
+
+.spot-shadow {
+    width: 32px;
+    height: 32px;
+    background-color: #FF45811A;
+    box-shadow: 0px 0px 12px 0px #FF4581;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spot {
+    width: 16px;
+    height: 16px;
+    background-color: #FF4581;
+    border-radius: 50%;
+}
+
+.arrow-bg-none {
+    opacity: 0;
+}
+
+@media (max-width: 1110px) {
+    .token3 {
+        width: 150px;
+        left: 100px;
+    }
+
+    .token4 {
+        right: 70px;
+    }
+
+    .roadmap-sec ul li {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .ellipse2 {
+        left: -600px;
+    }
+
+    .ellipse3 {
+        right: -800px;
+    }
+
+    .token4 {
+        width: 90px;
+        right: 30px;
+    }
+
+    .roadmap-sec h1 {
+        font-size: 40px;
+    }
+
+    .roadmap-sec ul li {
+        font-size: 18px;
+    }
+
+    .label {
+        width: 70px;
+    }
+
+    .private .label {
+        width: 200px;
+    }
+
+    .road {
+        height: 810px;
+    }
+
+    .proof {
+        transform: translate(-52%, -20px);
+    }
+
+    .improved {
+        transform: translate(-52%, 100px);
+    }
+
+    .advanced {
+        transform: translate(-59.5%, 220px);
+    }
+
+    .private {
+        transform: translate(-88%, 340px);
+    }
+
+    .charity {
+        transform: translate(-18%, 500px);
+    }
+
+    .ios {
+        transform: translate(-60%, 780px);
+    }
+}
+
+@media (max-width: 771px) {
+    .ellipse2 {
+        left: -700px;
+    }
+
+    .ellipse3 {
+        right: -900px;
+    }
+
+    .token3 {
+        left: 30px;
+    }
+
+    .token4 {
+        top: 900px;
+        right: 10px;
+    }
+
+    .roadmap-sec h1 {
+        font-size: 35px;
+    }
+
+    .roadmap-sec h3 {
+        font-size: 25px;
+    }
+
+    .roadmap-sec ul {
+        margin-top: 20px;
+        margin-left: -70px;
+    }
+
+    .roadmap-sec ul li {
+        font-size: 14px;
+    }
+
+    .roadmap-sec object {
+        margin-top: -30px;
+        margin-left: 70px;
+    }
+
+    .roadmap-sec img.arrow {
+        width: 15px;
+    }
+
+    .label {
+        width: 50px;
+    }
+
+    .private .label {
+        width: 120px;
+    }
+
+    .private {
+        transform: translate(-82%, 340px);
+    }
+}
+
+@media (max-width: 580px) {
+
+    .ellipse2,
+    .ellipse3,
+    .token3,
+    .token4,
+    .road {
+        display: none;
+    }
+
+    .roadmap-svg {
+        display: block;
+    }
+}
