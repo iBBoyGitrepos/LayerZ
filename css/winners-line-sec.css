@@ -1,0 +1,27 @@
+.winners-line-sec {
+    height: 112px;
+    background: #941A724D;
+    padding: 24px 40px;
+}
+
+@media (max-width: 991px) {
+    .winners-line-sec img {
+        width: auto;
+        height: 40px;
+    }
+}
+
+@media (max-width: 771px) {
+    .winners-line-sec {
+        height: auto;
+    }
+
+    .wrap-under-771 {
+        flex-wrap: wrap;
+    }
+
+    .winners-line-sec img {
+        width: auto;
+        height: 30px;
+    }
+}

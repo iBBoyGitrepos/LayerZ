@@ -1,7 +1,7 @@
 .roadmap-sec {
     padding: 80px 12px 136px;
     overflow: hidden;
-    height: 1600px;
+    height: 1330px;
 }
 
 .ellipse2 {
@@ -160,6 +160,10 @@
 }
 
 @media (max-width: 991px) {
+    .roadmap-sec {
+        height: 1250px;
+    }
+
     .ellipse2 {
         left: -600px;
     }
@@ -276,6 +280,10 @@
 }
 
 @media (max-width: 580px) {
+    .roadmap-sec {
+        padding: 80px 12px 100px;
+        height: auto;
+    }
 
     .ellipse2,
     .ellipse3,
