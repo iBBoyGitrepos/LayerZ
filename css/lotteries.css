@@ -37,6 +37,10 @@
     padding: 0;
 }
 
+.lotteries-sec .Main-button {
+    opacity: 9;
+}
+
 .lotteries-sec .intro-card .icon {
     display: flex;
     justify-content: start;

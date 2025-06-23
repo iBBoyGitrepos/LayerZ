@@ -1,0 +1,148 @@
+.footer-sec {
+    padding: 0 12px 80px;
+    height: 1076px;
+    overflow: hidden;
+}
+
+.black-shadwo {
+    width: 100%;
+    height: 861px;
+    left: -2px;
+    background: linear-gradient(180deg, #050201 0%, rgba(5, 2, 1, 0) 100%);
+}
+
+.pink-buble {
+    width: 100%;
+    height: 1079px;
+    top: 147px;
+    left: -2px;
+}
+
+.texture {
+    margin-left: -20px;
+    height: 1600px;
+}
+
+.text-content {
+    margin-top: 130px;
+}
+
+.footer-sec h1,
+.footer-sec h2 {
+    font-weight: 700;
+    font-size: 72.54px;
+    line-height: 95.21px;
+    letter-spacing: -0.01em;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.footer-sec h2 {
+    color: #FFCE2B;
+}
+
+.footer-sec .Main-button {
+    opacity: 9;
+}
+
+.sosials {
+    width: 856px;
+    height: 920px;
+    top: 70px;
+    right: -100px;
+    right: -200px;
+}
+
+.sosial-item {
+    width: 760px;
+    /* height: 194px; */
+}
+
+.sosial-left {
+    margin-left: 93px;
+}
+
+.footer-sec h6 {
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .footer-sec {
+        height: 800px;
+    }
+
+    .pink-buble {
+        height: 100vh;
+    }
+
+    .sosial-item {
+        width: 400px;
+    }
+
+    .footer-sec h6 {
+        font-size: 25px;
+    }
+
+    .sosials {
+        width: 590px;
+    }
+
+    .social-icon {
+        width: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .footer-sec h1,
+    .footer-sec h2 {
+        font-size: 55px;
+        line-height: normal;
+    }
+
+    .text-content {
+        margin-top: 40px;
+    }
+
+    .sosials {
+        width: 500px;
+    }
+
+    .sosial-item {
+        width: 300px;
+    }
+
+    .footer-sec h6 {
+        font-size: 18px;
+    }
+
+    .social-icon {
+        width: 20px;
+    }
+}
+
+@media (max-width: 771px) {
+    .footer-sec h1,
+    .footer-sec h2 {
+        font-size: 40px;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    .sosials {
+        top: 300px;
+    }
+}
+
+@media (max-width: 460px) {
+    .footer-sec {
+        height: 850px;
+    }
+    
+    .sosials {
+        top: 350px;
+    }
+}
