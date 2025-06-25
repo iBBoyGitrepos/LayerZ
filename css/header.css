@@ -1,5 +1,5 @@
 header {
-    padding: 150px 12px 128px;
+    padding: 200px 12px 128px;
 }
 
 /* .hero-sec {} */
@@ -8,10 +8,21 @@ header {
 header h1 {
     font-weight: 700;
     font-size: 100px;
-    /* line-height: 105px; */
     letter-spacing: -1px;
     vertical-align: middle;
     text-transform: uppercase;
+}
+
+.sloth {
+    top: 50%;
+    left: 0;
+    opacity: 0.47;
+}
+
+.token2 {
+    width: 90px;
+    top: 670px;
+    right: 50px;
 }
 
 .Token {
@@ -182,7 +193,7 @@ header h1 {
     line-height: 62px;
     letter-spacing: -0.01em;
     text-align: center;
-    background: linear-gradient(9deg, #340C00 20.5%, #E7134F 41.56%, #EA24B3 58.24%, #FFCD84 75.09%, #FFCD84 100%);
+    background: linear-gradient(9deg, #340C00 -24.5%, #E7134F 11.56%, #EA24B3 38.24%, #FFCD84 60.09%, #FFCD84 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -232,7 +243,7 @@ header h1 {
     }
 
     .Jackpot-box h3 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .Jackpot-box h6 {
@@ -249,12 +260,24 @@ header h1 {
         font-size: 16px;
     }
 
+    .Jackpot-box h4 {
+        font-size: 20px;
+    }
+
     .left {
         width: 350px;
     }
 }
 
 @media (max-width: 771px) {
+    .sloth {
+        display: none;
+    }
+
+    .token2 {
+        display: none;
+    }
+
     .left {
         width: 100%;
     }
@@ -273,6 +296,10 @@ header h1 {
 }
 
 @media (max-width: 400px) {
+    header {
+        padding-top: 150px;
+    }
+
     header h1 {
         font-size: 50px;
     }

@@ -70,6 +70,12 @@
 
 @media (max-width: 771px) {
     .winners-feed {
+        top: 1000px;
+    }
+}
+
+@media (max-width: 767px) {
+    .winners-feed {
         top: 1550px;
     }
 }

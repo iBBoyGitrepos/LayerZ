@@ -40,26 +40,15 @@
             <img src="assets/Noise & Texture.png" alt="Noise & Texture" class="texture w-100">
             <img src="assets/Noise & Texture.png" alt="Noise & Texture" class="texture w-100">
             <img src="assets/Noise & Texture.png" alt="Noise & Texture" class="texture w-100">
-
             <img src="assets/Noise & Texture.png" alt="Noise & Texture" class="texture w-100">
             <img src="assets/Noise & Texture.png" alt="Noise & Texture" class="texture w-100">
             <img src="assets/Noise & Texture.png" alt="Noise & Texture" class="texture w-100">
         </div>
-        <!-- approach by pictures -->
+
         <img src="assets/pink-ellipse-Group1.png" alt="pink-ellipse-Group1.png"
             class="pink-ellipse-Group position-absolute">
         <img src="assets/Ellipse 26.png" alt="Ellipse 26" class="pink-shadow position-absolute z-1">
         <img src="assets/disk.png" alt="disk.png" class="disk position-absolute">
-
-        <!-- approach by elements -->
-        <!-- <div class="ellipse30"></div>
-        <div class="ellipse28"></div>
-        <div class="ellipse29 position-relative"></div>
-
-        <div class="disk">
-            <div class="ellipse34"></div>
-            <div class="ellipse35"></div>
-        </div> -->
     </div>
     <!-- ========== BG WRAPPER: END ====================================== -->
 
@@ -180,8 +169,10 @@
         <!-- ===== SIDE NAVBAR (MOBILE): END ============================= -->
 
         <!-- ===== HEADER: START ========================================= -->
-        <header class="container-fluid">
-            <div class="container d-flex flex-md-row flex-column justify-content-between gap-5">
+        <header class="container-fluid position-relative">
+            <img src="assets/Sloth.png" alt="Sloth image" class="sloth position-absolute">
+            <img src="assets/blure token.png" alt="Token image" class="token2 position-absolute">
+            <div class="container d-flex flex-md-row flex-column justify-content-between gap-5 position-relative">
                 <div class="left d-flex flex-column gap-4">
                     <div class="upper">
                         <div class="title">
@@ -325,7 +316,7 @@
 
                 <div class="row">
                     <!-- CARD 1 -->
-                    <div class="col-lg-4 col-12 mb-4">
+                    <div class="card-container col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
                         <div class="card-wrap">
                             <svg viewBox="0 0 450 464" style="width: 100%; height: auto;"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -364,7 +355,7 @@
                     </div>
 
                     <!-- CARD 2 -->
-                    <div class="col-lg-4 col-12 mb-4">
+                    <div class="card-container col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
                         <div class="card-wrap">
                             <svg viewBox="0 0 450 464" style="width: 100%; height: auto;"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -389,7 +380,7 @@
                     </div>
 
                     <!-- CARD 3 -->
-                    <div class="col-lg-4 col-12 mb-4">
+                    <div class="card-container col-12 col-sm-6 col-md-6 col-lg-4 mb-4 m-auto mx-lg-0">
                         <div class="card-wrap">
                             <svg viewBox="0 0 450 464" style="width: 100%; height: auto;"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -431,111 +422,123 @@
                         IS <span>TO BE LayZ!</span>
                     </h1>
                     <button
-                        class="Main-button d-flex align-items-center justify-content-center translateY gap-2 ms-lg-0 ms-auto me-auto">
+                        class="Main-button d-flex align-items-center justify-content-center translateY gap-2 mt-4 ms-lg-0 ms-auto me-auto">
                         <img src="assets/pancakeswap-cake-logo-1.png" width="23.78px" height="24px" alt="">
                         <span class="text height-100">Buy on PancakeSwap (Soon)</span>
                     </button>
                 </div>
-                <div class="benefit row justify-content-end align-items-center gap-3 px-3 position-relative">
-                    <div class="tile col-12 col-md-6 px-0">
-                        <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
-                                    <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
-                                </linearGradient>
-                                <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
-                                    <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
-                                </linearGradient>
-                            </defs>
 
-                            <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
+                <div class="benefit row justify-content-end align-items-center gx-3 gy-3 position-relative">
+                    <!-- Row 1 -->
+                    <div class="col-6">
+                        <div class="tile">
+                            <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
+                                        <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
+                                    </linearGradient>
+                                    <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
+                                        <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
+                                    </linearGradient>
+                                </defs>
 
-                            <foreignObject x="0" y="0" width="278" height="138">
-                                <div xmlns="http://www.w3.org/1999/xhtml"
-                                    class="d-flex align-items-center p-4 m-3 gap-3">
-                                    <img src="assets/Buy the token.png" class="tile-icon" width="63" height="56"
-                                        alt="Buy the token" />
-                                    <p class="tile-text mb-0">Buy the token</p>
-                                </div>
-                            </foreignObject>
-                        </svg>
+                                <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
+
+                                <foreignObject x="0" y="0" width="100%" height="100%">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                        class="d-flex align-items-center p-4 m-3 gap-3">
+                                        <img src="assets/Buy the token.png" class="tile-icon" width="63" height="56"
+                                            alt="Buy the token" />
+                                        <p class="tile-text mb-0">Buy the token</p>
+                                    </div>
+                                </foreignObject>
+                            </svg>
+                        </div>
                     </div>
-                    <div class="tile col-12 col-md-6 px-0">
-                        <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
-                                    <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
-                                </linearGradient>
-                                <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
-                                    <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
-                                </linearGradient>
-                            </defs>
+                    <div class="col-6">
+                        <div class="tile">
+                            <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
+                                        <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
+                                    </linearGradient>
+                                    <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
+                                        <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
+                                    </linearGradient>
+                                </defs>
 
-                            <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
+                                <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
 
-                            <foreignObject x="0" y="0" width="278" height="138">
-                                <div xmlns="http://www.w3.org/1999/xhtml"
-                                    class="d-flex align-items-center p-4 m-3 gap-3">
-                                    <img src="assets/hold it.png" class="tile-icon" width="63" height="56"
-                                        alt="Hold it" />
-                                    <p class="tile-text mb-0">Hold it</p>
-                                </div>
-                            </foreignObject>
-                        </svg>
+                                <foreignObject x="0" y="0" width="100%" height="100%">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                        class="d-flex align-items-center p-4 m-3 gap-3">
+                                        <img src="assets/hold it.png" class="tile-icon" width="63" height="56"
+                                            alt="Hold it" />
+                                        <p class="tile-text mb-0">Hold it</p>
+                                    </div>
+                                </foreignObject>
+                            </svg>
+                        </div>
                     </div>
-                    <div class="tile col-12 col-md-6 px-0">
-                        <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
-                                    <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
-                                </linearGradient>
-                                <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
-                                    <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
-                                </linearGradient>
-                            </defs>
 
-                            <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
+                    <!-- Row 2 -->
+                    <div class="col-6">
+                        <div class="tile">
+                            <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
+                                        <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
+                                    </linearGradient>
+                                    <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
+                                        <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
+                                    </linearGradient>
+                                </defs>
 
-                            <foreignObject x="0" y="0" width="278" height="138">
-                                <div xmlns="http://www.w3.org/1999/xhtml"
-                                    class="d-flex align-items-center p-4 m-3 gap-3">
-                                    <img src="assets/Earn rewards.png" class="tile-icon" width="66" height="56"
-                                        alt="Earn rewards" />
-                                    <p class="tile-text mb-0">Earn rewards</p>
-                                </div>
-                            </foreignObject>
-                        </svg>
+                                <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
+
+                                <foreignObject x="0" y="0" width="100%" height="100%">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                        class="d-flex align-items-center p-4 m-3 gap-3">
+                                        <img src="assets/Earn rewards.png" class="tile-icon" width="66" height="56"
+                                            alt="Earn rewards" />
+                                        <p class="tile-text mb-0">Earn rewards</p>
+                                    </div>
+                                </foreignObject>
+                            </svg>
+                        </div>
                     </div>
-                    <div class="tile col-12 col-md-6 px-0">
-                        <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
-                                    <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
-                                </linearGradient>
-                                <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
-                                    <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
-                                    <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
-                                </linearGradient>
-                            </defs>
+                    <div class="col-6">
+                        <div class="tile">
+                            <svg class="tile-svg" viewBox="0 0 278 138" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <linearGradient id="borderGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(255,206,43,0.5)" />
+                                        <stop offset="100%" stop-color="rgba(231,22,95,0.5)" />
+                                    </linearGradient>
+                                    <linearGradient id="bgGradient" x1="0" y1="0" x2="278" y2="0">
+                                        <stop offset="0%" stop-color="rgba(66,0,0,0.3)" />
+                                        <stop offset="100%" stop-color="rgba(231,19,79,0.3)" />
+                                    </linearGradient>
+                                </defs>
 
-                            <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
+                                <rect class="tile-rect" x="0.5" y="0.5" rx="16" width="277" height="137" />
 
-                            <foreignObject x="0" y="0" width="278" height="138">
-                                <div xmlns="http://www.w3.org/1999/xhtml"
-                                    class="d-flex align-items-center p-4 m-3 gap-3">
-                                    <img src="assets/Make impact.png" class="Make impact" width="66" height="56"
-                                        alt="Make impact" />
-                                    <p class="tile-text mb-0">Make impact</p>
-                                </div>
-                            </foreignObject>
-                        </svg>
+                                <foreignObject x="0" y="0" width="100%" height="100%">
+                                    <div xmlns="http://www.w3.org/1999/xhtml"
+                                        class="d-flex align-items-center p-4 m-3 gap-3">
+                                        <img src="assets/Make impact.png" class="Make impact" width="66" height="56"
+                                            alt="Make impact" />
+                                        <p class="tile-text mb-0">Make impact</p>
+                                    </div>
+                                </foreignObject>
+                            </svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -557,7 +560,7 @@
 
                 <div class="row">
                     <!-- CARD 1 -->
-                    <div class="col-lg-4 col-12 mb-4">
+                    <div class="lotteri-card col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
                         <div class="card-wrap">
                             <svg viewBox="0 0 450 464" style="width: 100%; height: auto;"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -600,7 +603,7 @@
                     </div>
 
                     <!-- CARD 2 -->
-                    <div class="col-lg-4 col-12 mb-4">
+                    <div class="lotteri-card col-12 col-sm-6 col-md-6 col-lg-4 mb-4">
                         <div class="card-wrap">
                             <svg viewBox="0 0 450 464" style="width: 100%; height: auto;"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -631,7 +634,7 @@
                     </div>
 
                     <!-- CARD 3 -->
-                    <div class="col-lg-4 col-12 mb-4">
+                    <div class="lotteri-card col-12 col-sm-6 col-md-6 col-lg-4 mb-4 m-auto mx-lg-0">
                         <div class="card-wrap">
                             <svg viewBox="0 0 450 464" style="width: 100%; height: auto;"
                                 xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
@@ -642,7 +645,7 @@
                                     <div xmlns="http://www.w3.org/1999/xhtml" class="intro-card">
                                         <div>
                                             <div class="icon">
-                                                <img src="assets/charity-svgrepo-com 1.png" alt="icon" />
+                                                <img src="assets/abags-car-gambling-svgrepo-com.png" alt="abags-car-gambling-svgrepo-com icon" />
                                             </div>
                                             <h3>Smashtime</h3>
                                             <p>Smashtime is designed to invigorate trading during inactive periods.</p>
@@ -665,12 +668,10 @@
 
         <!-- ========== MISSION: SECTION START ========================== -->
         <section class="container-fluid mission-sec py-5 position-relative">
-            <img src="assets/Disks-5-lears.png" alt="Disks" class="disks-img position-absolute">
+            <div class="container d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end gap-4 position-relative z-1">
 
-            <div
-                class="container d-flex flex-wrap align-items-center justify-content-center justify-content-lg-end gap-4 position-relative z-1">
-
-                <div class="row gap-4 col-lg-6 col-12">
+                <img src="assets/Disks-5-lears.png" alt="Disks" class="disks-img position-absolute">
+                <div class="row gap-4 col-lg-6 col-12 position-relative">
                     <h1 class="mission-heading px-0">WE ARE ON A MISSION TO DISRUPT FINANCIAL MONOPOLIES</h1>
                     <p class="mission-text">
                         <span>LayerZ</span> stands out with a robust deflationary and anti-capitalistic ecosystem,
@@ -798,12 +799,12 @@
                             <h2>90%</h2>
                             <p>Locked liquidity</p>
                         </div>
-                        <div class="d-md-none col-3 d-flex">
+                        <div class="d-md-none col-3 d-flex ps-5">
                             <div class="p-0 mt-5">
                                 <h2 class="mt-5">5%</h2>
                                 <p>Airdrops, partnerships<br> and community<br> rewards</p>
                             </div>
-                            <div class="position-relative">
+                            <div class="d position-relative">
                                 <div class="point-shadow">
                                     <div class="point"></div>
                                 </div>
@@ -987,11 +988,11 @@
 
             <div class="container position-relative">
                 <div class="text-content">
-                    <div class="col-12 col-md-7 col-xl-6 col-xxl-8">
+                    <div class="col-12 col-md-8 col-xl-6 col-xxl-8">
                         <h1>We are moving fast.</h1>
                         <h2>Product is ready.</h2>
                         <button
-                            class="Main-button d-flex align-items-center justify-content-center translateY gap-2 mt-5 m-auto ms-md-0">
+                            class="Main-button d-flex align-items-center justify-content-center translateY gap-2 mt-4 mt-md-5 m-auto ms-md-0">
                             <img src="assets/pancakeswap-cake-logo-1.png" width="23.78px" height="24px" alt="">
                             <span class="text height-100">Buy on PancakeSwap</span>
                         </button>

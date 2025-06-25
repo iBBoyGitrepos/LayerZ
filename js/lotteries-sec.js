@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateEllipsePosition() {
         if (!ellipse || !section) return;
 
-        const isMobile = window.innerWidth <= 991;
+        const isMobile = window.innerWidth <= 575;
 
         if (!isMobile) {
             ellipse.style.position = "absolute";

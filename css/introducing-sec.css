@@ -68,6 +68,10 @@
 }
 
 @media (max-width: 991px) {
+    .introducing-sec {
+        padding-bottom: 80px;
+    }
+
     .introducing-sec h1 {
         font-size: 40px;
     }
@@ -90,7 +94,23 @@
         margin-left: 0;
     }
 
-    .introducing-sec .intro-card p { 
+    .introducing-sec .intro-card p {
         font-size: 18px;
+    }
+}
+
+@media (max-width: 575px) {
+    .card-container {
+        padding: 0 48px;
+    }
+
+    .introducing-sec .card-container .intro-card {
+        padding: 48px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card-container {
+        padding: 0;
     }
 }

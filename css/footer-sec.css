@@ -31,7 +31,6 @@
 .footer-sec h2 {
     font-weight: 700;
     font-size: 72.54px;
-    line-height: 95.21px;
     letter-spacing: -0.01em;
     vertical-align: middle;
     text-transform: uppercase;
@@ -55,7 +54,6 @@
 
 .sosial-item {
     width: 760px;
-    /* height: 194px; */
 }
 
 .sosial-left {
@@ -75,7 +73,7 @@
     }
 
     .pink-buble {
-        height: 100vh;
+        height: 85%;
     }
 
     .sosial-item {
@@ -100,7 +98,6 @@
     .footer-sec h1,
     .footer-sec h2 {
         font-size: 55px;
-        line-height: normal;
     }
 
     .text-content {
@@ -129,7 +126,6 @@
     .footer-sec h2 {
         font-size: 40px;
         text-align: center;
-        line-height: 40px;
     }
 
     .sosials {
@@ -140,6 +136,11 @@
 @media (max-width: 460px) {
     .footer-sec {
         height: 850px;
+    }
+
+    .footer-sec h1,
+    .footer-sec h2 {
+        font-size: 30px;
     }
     
     .sosials {

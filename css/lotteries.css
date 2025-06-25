@@ -60,12 +60,6 @@
     .ellipse-bg img {
         width: 400px;
     }
-}
-
-@media (max-width: 771px) {
-    .ellipse-bg img {
-        width: 400px;
-    }
 
     .lotteries-sec .intro-card p {
         font-size: 18px;
@@ -75,5 +69,31 @@
 @media (max-width: 450px) {
     .ellipse-bg img {
         width: 300px;
+    }
+}
+
+@media (max-width: 575px) {
+    .ellipse-bg {
+        top: 50%;
+    }
+
+    .lotteri-card {
+        padding: 0 48px;
+    }
+
+    .lotteri-card .intro-card {
+        padding: 48px;
+    }
+}
+
+@media (max-width: 400px) {
+    .lotteri-card {
+        padding: 0;
+    }
+}
+
+@media (max-width: 300px) {
+    .ellipse-bg img {
+        width: 150px;
     }
 }

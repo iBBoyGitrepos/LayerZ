@@ -3,16 +3,14 @@
 }
 
 .disks-img {
-  top: 100px;
   left: -841px;
   width: 1416px;
-  height: 700px;
+  height: 800px;
 }
 
 .mission-heading {
   font-weight: 700;
   font-size: 56px;
-  line-height: 62px;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fff;
@@ -51,22 +49,43 @@
   letter-spacing: -0.01em;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .disks-img {
+    left: -900px;
+  }
+
+  .mission-heading {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .disks-img  {
     left: -1000px;
   }
-  .mission-heading {
-      font-size: 40px;
+}
+
+@media (max-width: 1024px) {
+  .disks-img  {
+    left: -1000px;
+  }
+}
+
+@media (max-width: 991px) {
+  .disks-img {
+    left: -1300px;
   }
 }
 
 @media (max-width: 771px) {
   .disks-img {
-    left: -1200px;
+    display: none;
   }
+
   .mission-heading {
-      font-size: 30px;
+    font-size: 30px;
   }
+
   .mission-text {
     font-size: 18px;
   }

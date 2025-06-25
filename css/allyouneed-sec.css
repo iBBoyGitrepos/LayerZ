@@ -1,4 +1,4 @@
-.allyouneed-sec div.container {
+.allyouneed-sec .container {
     background-image: url('../assets/allyouneed-sec-bg.png');
     background-size: cover;
     background-position: center;
@@ -14,6 +14,7 @@
     height: 504px;
     top: -199px;
     left: -149px;
+    position: absolute;
 }
 
 .disks-2 {
@@ -21,6 +22,7 @@
     height: 407px;
     top: 273px;
     left: 771px;
+    position: absolute;
 }
 
 .noise-texture {
@@ -28,6 +30,7 @@
     height: 1600px;
     top: -329px;
     left: -15px;
+    position: absolute;
 }
 
 .allyouneed-sec h1 {
@@ -42,17 +45,24 @@
 }
 
 .benefit {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: flex-end;
+    margin: 0;
+}
+
+.tile {
+    padding: 0;
 }
 
 .tile-svg {
     width: 100%;
     height: auto;
+    display: block;
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
+}
+
+.tile-svg foreignObject {
+    width: 100%;
+    height: 100%;
 }
 
 .tile-rect {
@@ -62,13 +72,15 @@
 }
 
 .tile-text {
-    color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 600;
-    text-align: start;
+    color: #FDE2AE;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    vertical-align: bottom;
 }
 
-.benefit .tile:hover {
+.tile:hover {
     border-radius: 20px;
     transition: all 0.3s ease;
     transform: translateY(-5px);
@@ -79,7 +91,6 @@
     .allyouneed-sec .container {
         flex-direction: column;
         justify-content: center;
-        gap: 2rem;
         height: auto;
         padding: 3rem 1rem;
     }
@@ -89,45 +100,15 @@
         text-align: center;
     }
 
-    .benefit {
-        justify-content: center;
-    }
-
     .disks-2 {
         top: 400px;
         left: 200px;
     }
 }
 
-/* 2x2 grid behavior */
-@media (min-width: 772px) {
-    .benefit {
-        flex-direction: row;
-        max-width: 600px;
-    }
-
-    .benefit .tile {
-        flex: 0 0 calc(50% - 0.5rem);
-    }
-}
-
-/* Vertical stacking under 771px */
 @media (max-width: 771px) {
-    .benefit {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .allyouneed-sec h1 {
         font-size: 30px;
-    }
-
-    
-
-    .benefit .tile {
-        flex: 0 0 auto;
-        width: 100%;
-        max-width: 320px;
     }
 
     .ellipse31 {
@@ -138,5 +119,28 @@
     .disks-2 {
         top: 700px;
         left: 150px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .allyouneed-sec .container {
+        min-height: 500px;
+    }
+
+    .tile {
+        flex: 0 0 50%;
+        max-width: 100%;
+    }
+
+    .benefit .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 280px) {
+    .benefit .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }

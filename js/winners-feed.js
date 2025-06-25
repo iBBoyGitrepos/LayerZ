@@ -77,13 +77,15 @@ document.addEventListener('DOMContentLoaded', () => {
   // Script about Winnersfeed sticky
   const winnersFeed = document.querySelector('.winners-feed');
   const desktopStickyScrollY = 810;
+  const tabletStickyScrollY = 910;
   const mubilStickyScrollY = 1460;
 
   window.addEventListener('scroll', () => {
     const screenWidth = window.innerWidth;
 
     if (window.scrollY > desktopStickyScrollY && screenWidth > 771 ||
-      window.scrollY > mubilStickyScrollY && screenWidth < 771) {
+      window.scrollY > tabletStickyScrollY && (screenWidth <= 771 && screenWidth > 767) ||
+      window.scrollY > mubilStickyScrollY && screenWidth <= 767) {
       winnersFeed.classList.add('sticky');
     } else {
       winnersFeed.classList.remove('sticky');
