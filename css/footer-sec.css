@@ -131,6 +131,12 @@
     .sosials {
         top: 300px;
     }
+    
+}
+@media (max-width: 768px) {
+    .footer-sec .text-content div {
+        margin: auto;
+    }
 }
 
 @media (max-width: 460px) {

@@ -243,7 +243,7 @@ header h1 {
     }
 
     .Jackpot-box h3 {
-        font-size: 30px;
+        font-size: 33px;
     }
 
     .Jackpot-box h6 {
@@ -283,7 +283,7 @@ header h1 {
     }
 
     .Jackpot-box {
-        padding: 30px;
+        padding: 20px;
     }
 
     .Main-button {
@@ -302,6 +302,10 @@ header h1 {
 
     header h1 {
         font-size: 50px;
+    }
+
+    .Jackpot-box h3 {
+        font-size: 30px;
     }
 
     .Token {

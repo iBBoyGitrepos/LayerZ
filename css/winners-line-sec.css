@@ -1,27 +1,30 @@
 .winners-line-sec {
-    height: 112px;
-    background: #941A724D;
-    padding: 24px 40px;
+  height: auto;
+  background: #941A724D;
+  padding: 24px 40px;
+  overflow: hidden;
 }
 
-@media (max-width: 991px) {
-    .winners-line-sec img {
-        width: auto;
-        height: 40px;
-    }
+.winners-line-inner {
+  gap: 30px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  align-items: center;
+}
+
+.winners-line-sec img {
+  height: 56px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 991px) { 
+  .winners-line-sec img {
+    height: 40px;
+  }
 }
 
 @media (max-width: 771px) {
-    .winners-line-sec {
-        height: auto;
-    }
-
-    .wrap-under-771 {
-        flex-wrap: wrap;
-    }
-
-    .winners-line-sec img {
-        width: auto;
-        height: 30px;
-    }
+  .winners-line-sec img {
+    height: 30px;
+  }
 }

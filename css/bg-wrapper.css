@@ -70,6 +70,10 @@
 
 @media (max-width: 370px) {
   .disk {
+    display: none;
+  }
+  
+  .disk {
     left: -1300px;
   }
 }
