@@ -24,7 +24,7 @@
 .card-wrap {
     backdrop-filter: blur(32px);
     -webkit-backdrop-filter: blur(32px);
-    border-radius: 16px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -101,10 +101,6 @@
 @media (max-width: 575px) {
     .card-container {
         padding: 0 48px;
-    }
-
-    .card-wrap {
-        border-radius: 10px;
     }
 
     .introducing-sec .card-container .intro-card {
