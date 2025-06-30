@@ -103,6 +103,10 @@
         padding: 0 48px;
     }
 
+    .card-wrap {
+        border-radius: 10px;
+    }
+
     .introducing-sec .card-container .intro-card {
         padding: 48px;
     }
@@ -111,5 +115,11 @@
 @media (max-width: 400px) {
     .card-container {
         padding: 0;
+    }
+}
+
+@media (max-width: 350px) {
+    .introducing-sec {
+        padding: 60px 12px 80px;
     }
 }
